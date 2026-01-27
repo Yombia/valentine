@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#fff5f7] overflow-x-hidden;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.bg-gradient-soft {
+  background: radial-gradient(circle, rgba(255,182,193,0.3) 0%, rgba(255,245,247,1) 100%);
+}
