@@ -7,19 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Warna khusus untuk Acel
-        'valentine-pink': '#ff85a1',
         'valentine-red': '#ff4d6d',
+        'valentine-pink': '#ffb1b1',
       },
-      animation: {
-        'floating': 'floating 3s ease-in-out infinite',
-      },
-      keyframes: {
-        floating: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        }
-      }
     },
   },
   plugins: [],
